@@ -50,9 +50,16 @@ xml<?xml version="1.0" encoding="UTF-8"?>
 Ini berguna untuk menjangkau service internal seperti metadata cloud (http://169.254.169.254/) atau port internal yang tidak terbuka ke publik.
 ```
 ### XXE
-Cek Content-Type requestnya dulu. Buka Burp Suite, kalau ada request yang mengirim XML atau ada endpoint /api yang menerima data, coba ubah body-nya jadi XML dengan DOCTYPE dan lihat responsnya berubah tidak.
-Kalau tidak ada output, langsung coba Blind XXE dengan webhook.site. Masukkan URL webhook ke payload SYSTEM, kalau ada request masuk berarti XXE berhasil meski tidak tampil di halaman.
-SVG upload sering diabaikan peserta lain. Kalau ada fitur upload gambar dan ekstensi SVG diizinkan, itu hampir pasti celah XXE. Jangan skip fitur upload saat reconnaissance.
-Perhatikan error message. Kadang parser XML menampilkan error yang bocorkan path file atau versi library. Itu informasi berharga untuk menentukan payload yang tepat.
-Urutan eksploitasi yang efisien: Deteksi dulu dengan entity sederhana → coba baca /etc/passwd → kalau blind, setup OOB listener → eskalasi ke SSRF kalau ada internal network.
+Cek Content-Type requestnya dulu. Buka Burp Suite, kalau ada request yang mengirim XML atau ada endpoint /api yang menerima data, 
+coba ubah body-nya jadi XML dengan DOCTYPE dan lihat responsnya berubah tidak.
 
+Kalau tidak ada output, langsung coba Blind XXE dengan webhook.site. Masukkan URL webhook ke payload SYSTEM, 
+kalau ada request masuk berarti XXE berhasil meski tidak tampil di halaman.
+
+SVG upload sering diabaikan peserta lain. Kalau ada fitur upload gambar dan ekstensi SVG diizinkan, 
+itu hampir pasti celah XXE. Jangan skip fitur upload saat reconnaissance.
+
+Perhatikan error message. Kadang parser XML menampilkan error yang bocorkan path file atau versi library. 
+Itu informasi berharga untuk menentukan payload yang tepat.
+
+Urutan eksploitasi yang efisien: Deteksi dulu dengan entity sederhana → coba baca /etc/passwd → kalau blind, setup OOB listener → eskalasi ke SSRF kalau ada internal network.
