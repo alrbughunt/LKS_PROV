@@ -376,7 +376,7 @@ root
 177b3cd8562289f37382721c28381f02
 ```
 
-> 🎉 **Root Flag:** `177b3cd8562289f37382721c28381f02`
+>  **Root Flag:** `177b3cd8562289f37382721c28381f02`
 
 ---
 
@@ -402,13 +402,13 @@ root
                                     │
                                     └── SSH login sebagai Kenobi
                                             │
-                                            └── USER FLAG ✅
+                                            └── USER FLAG 
                                                     │
                                                     └── SUID /usr/bin/menu
                                                             │
                                                             └── PATH manipulation
                                                                     │
-                                                                    └── ROOT FLAG ✅
+                                                                    └── ROOT FLAG 
 ```
 
 ---
@@ -437,6 +437,6 @@ root
 
 ---
 
-*Writeup oleh: [username kamu]*  
+*Writeup oleh: alrbughunt*  
 *Platform: TryHackMe — Room: Kenobi*  
-*Tanggal: Juni 2026*
+*Tanggal: 03 Juni 2026*
