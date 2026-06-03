@@ -1,7 +1,7 @@
 # TryHackMe — Kenobi CTF Writeup
 **Platform:** TryHackMe  
 **Room:** Kenobi  
-**Status:** ✅ Completed  
+**Status:** Completed  
 
 ---
 
