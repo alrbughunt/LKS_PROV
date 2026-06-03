@@ -1,7 +1,6 @@
 # TryHackMe — Kenobi CTF Writeup
 **Platform:** TryHackMe  
 **Room:** Kenobi  
-**Difficulty:** Easy  
 **Status:** ✅ Completed  
 
 ---
