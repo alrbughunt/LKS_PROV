@@ -4,8 +4,6 @@
 
 - **Tingkat Kesulitan:** Mudah
 - **Link Room:** [RootMe](https://tryhackme.com/room/rrootme)
-- **Penulis Asli:** [Maryamkhalid](https://medium.com/@maryamkhalid590)
-- **Sumber:** [Medium — TryHackMe-RootMe WriteUp](https://medium.com/@maryamkhalid590/tryhackme-rootme-writeup-ff4a8bce0e4c)
 
 ---
 
