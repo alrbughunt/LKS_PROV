@@ -345,4 +345,3 @@ Kita telah berhasil menyelesaikan room **RootMe** di TryHackMe!
 - 🔗 [TryHackMe — RootMe Room](https://tryhackme.com/room/rrootme)
 - 🔗 [pentestmonkey/php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell)
 - 🔗 [GTFObins](https://gtfobins.github.io/)
-- 🔗 [Artikel Asli oleh Maryamkhalid di Medium](https://medium.com/@maryamkhalid590/tryhackme-rootme-writeup-ff4a8bce0e4c)
