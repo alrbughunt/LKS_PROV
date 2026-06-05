@@ -2,7 +2,6 @@
 
 > **"A CTF for beginners, Can you root me?"**
 
-- **Tingkat Kesulitan:** Mudah
 - **Link Room:** [RootMe](https://tryhackme.com/room/rrootme)
 
 ---
